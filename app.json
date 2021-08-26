@@ -1,0 +1,34 @@
+{
+  "expo": {
+    "name": "Rock Paper Scissors Mobile Game",
+    "slug": "twoplayerrockpaperscissors",
+    "version": "1.0.3",
+    "orientation": "portrait",
+    "icon": "./assets/RPS_Main_Icon.png",
+    "splash": {
+      "image": "./assets/RPS_Icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "web": {
+      "favicon": "./assets/RPS_Main_Icon.png"
+    },
+    "description": "A two-player rock, paper, scissors game on android developed by VRICKSS.",
+    "android": {
+      "package": "com.vrickss.rps2player"
+    }
+  },
+  "android": {
+    "package": "com.vrickss.rps2player",
+    "versionCode": 1
+  }
+}
